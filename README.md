@@ -1,0 +1,1 @@
+Pentru cursul de IT
