@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/8aa512ce8d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li class="hover">
+          <a href="index.html"><i class="fa fa-house"></i>Acasă</a>
+        </li>
+        <li class="hover">
+          <a href="galerie.html"><i class="fa fa-image"></i>Galerie</a>
+        </li>
+        <li class="hover">
+          <a href="#"><i class="fa fa-message"></i>Contact</a>
+        </li>
+        <li class="despre">
+          <a href="#"><i class="fa fa-scroll"></i>Despre mine</a>
+        </li>
+      </ul>
+    </div>
+    <video autoplay muted loop id="clipulMeu">
+      <source src="colors.mp4" type="video/mp4" />
+    </video>
+<div class="formular">
+    <h1>Contactează-mă</h1>
+    <form method="post">
+        <label for="fname">Prenumele:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Scrie aici prenumele"
+        />
+        <label for="lname">Numele de familie:</label>
+        <input 
+        type="text"
+          id="lname"
+          name="lname"
+          placeholder="Scrie aici numele de familie"/>
+          <label for="email">Adresa de e-mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Scrie aici adresa de e-mail"
+          />
+          <label for="subject">Subiectul mesajului:</label>
+          <textarea id="subject" name="subject" placeholder="Ce vrei să-mi scrii?" style="height:200px" required></textarea>
+          <input type="submit" value="Submit" onclick="clicked(event)" />
+    </form>
+
+</div>
+    </div>
+  </body>
+</html>
